@@ -264,11 +264,11 @@ h3, .h3 {
 }
 
 h4, .h4 {
-  font-size: calc(1.365rem + 1.38vw);
+  font-size: calc(1.345rem + 1.14vw);
 }
 @media (min-width: 1200px) {
   h4, .h4 {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
   }
 }
 
@@ -8481,7 +8481,7 @@ textarea.form-control-lg {
 }
 
 .fs-4 {
-  font-size: calc(1.365rem + 1.38vw) !important;
+  font-size: calc(1.345rem + 1.14vw) !important;
 }
 
 .fs-5 {
@@ -12041,7 +12041,7 @@ textarea.form-control-lg {
     font-size: 2.8rem !important;
   }
   .fs-4 {
-    font-size: 2.4rem !important;
+    font-size: 2.2rem !important;
   }
   .fs-5 {
     font-size: 2rem !important;
@@ -12175,6 +12175,10 @@ body {
   font-family: "Rubik", sans-serif;
 }
 
+h4, .h4 {
+  line-height: 2.5rem;
+}
+
 header .navbar-brand {
   max-width: 100px;
   padding: 0;
@@ -12241,6 +12245,62 @@ header .navbar-nav .nav-item .nav-link {
 }
 .service-section .service-item .service-item-title:hover {
   color: #1A77CD;
+}
+
+.team-section {
+  padding: 8.1rem 0 6.8rem;
+  background-color: #F6F5F6;
+}
+.team-section .team-section-title {
+  margin-bottom: 6.2rem;
+}
+.team-section .team-member .team-member-title {
+  margin-bottom: 2.1rem;
+}
+.team-section .team-member .team-member-description {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.team-section .team-member .team-member-linkedin {
+  color: #444;
+  font-size: 3rem;
+}
+.team-section .team-member .team-member-linkedin:hover {
+  color: #1A77CD;
+}
+.team-section .team-member .team-member-linkedin {
+  margin-bottom: 2rem;
+}
+@media (min-width: 576px) {
+  .team-section .team-member .team-member-linkedin {
+    margin-bottom: 0;
+  }
+}
+.team-section .team-member-image {
+  overflow: hidden;
+  display: block;
+}
+.team-section .team-member-image:hover img {
+  transform: scale(1.1);
+}
+.team-section .team-member-image img {
+  display: block;
+  width: 100%;
+  transition: 0.3s linear;
+}
+
+.team-section .owl-carousel .owl-nav.disabled + .owl-dots {
+  margin-top: 9.2rem;
+}
+.team-section .owl-dots .owl-dot.active span {
+  margin: 0 7px;
+  background-color: rgb(105, 148, 210);
+}
+.team-section .owl-dots .owl-dot span {
+  margin: 0 7px;
+  background-color: rgba(105, 148, 210, 0.34);
 }
 
 /*# sourceMappingURL=theme.css.map */
