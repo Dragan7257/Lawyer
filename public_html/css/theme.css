@@ -12241,9 +12241,22 @@ header .navbar-nav .nav-item .nav-link {
   margin-bottom: 2rem;
 }
 .service-section .service-item .service-item-title {
+  padding-left: 2.4rem;
   color: #000000;
 }
 .service-section .service-item .service-item-title:hover {
+  color: #1A77CD;
+}
+.service-section.dark-service-section {
+  background-color: #11284B;
+}
+.service-section.dark-service-section .service-section-title {
+  color: #1A77CD;
+}
+.service-section.dark-service-section .service-item .service-item-title {
+  color: #fff;
+}
+.service-section.dark-service-section .service-item .service-item-title:hover {
   color: #1A77CD;
 }
 
@@ -12334,6 +12347,17 @@ footer .social .social-icon {
 }
 footer .social .social-icon:hover {
   transform: rotate(360deg);
+}
+
+.about-section {
+  padding: 10.6rem 0 10.8rem;
+}
+.about-section .about-data h2, .about-section .about-data .h2 {
+  margin-bottom: 2.6rem;
+}
+.about-section .about-image img {
+  width: 100%;
+  display: block;
 }
 
 /*# sourceMappingURL=theme.css.map */
