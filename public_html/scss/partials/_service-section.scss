@@ -4,8 +4,8 @@ $dark-service-bg: $dark-blue;
     padding: 11rem 0 11.3rem;
     .service-section-title{
         margin-bottom: 6.1rem;
-    }   
-    .service-item{
+    }
+    .service-item{      
         margin-bottom: 2rem;
         .service-item-title{
             padding-left: 2.4rem;
@@ -15,7 +15,7 @@ $dark-service-bg: $dark-blue;
             }
         }
     }
-    
+
     &.dark-service-section{
         background-color: $dark-service-bg;
         .service-section-title{
@@ -30,7 +30,7 @@ $dark-service-bg: $dark-blue;
             }
         }
     }
-    
-    
-    
+
+
+
 }
