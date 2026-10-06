@@ -12278,7 +12278,7 @@ header .navbar-nav .nav-item .nav-link {
 }
 .team-section .team-member .team-member-linkedin {
   color: #444;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 .team-section .team-member .team-member-linkedin:hover {
   color: #1A77CD;
@@ -12409,6 +12409,93 @@ footer .social .social-icon:hover {
 }
 .team-page-members .team-member .team-member-name a:hover {
   color: #1A77CD;
+}
+
+.single-team-member {
+  padding: 9.2rem 0 12.9rem;
+}
+.single-team-member .team-member-name {
+  margin-bottom: 8px;
+}
+.single-team-member .team-member-position {
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  line-height: 2rem;
+  letter-spacing: 1.14%;
+}
+.single-team-member .team-member-linkedin {
+  color: #444;
+  font-size: 2rem;
+  text-decoration: none;
+}
+.single-team-member .team-member-linkedin:hover {
+  color: #1A77CD;
+}
+.single-team-member .team-member-linkedin {
+  margin-bottom: 3rem;
+}
+@media (min-width: 992px) {
+  .single-team-member .team-member-linkedin {
+    margin-bottom: 5.2rem;
+  }
+}
+.single-team-member .team-member-image {
+  position: sticky;
+  -webkit-position: sticky;
+  top: 0;
+}
+.single-team-member .team-member-image img {
+  width: 100%;
+  display: block;
+}
+
+.news-section {
+  padding-top: 11.4rem;
+}
+.news-section .news-item {
+  margin-bottom: 11.4rem;
+}
+.news-section .news-item:hover .news-item-image img {
+  transform: scale(1.1);
+}
+.news-section .news-item .news-item-data .news-item-title {
+  margin-bottom: 2.2rem;
+}
+.news-section .news-item .news-item-data .news-item-title a {
+  color: #000000;
+  text-decoration: none;
+}
+.news-section .news-item .news-item-data .news-item-title a:hover {
+  color: #1A77CD;
+}
+.news-section .news-item .news-item-data .news-item-description {
+  margin-bottom: 3.1rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+@media (min-width: 768px) {
+  .news-section .news-item .news-item-data .news-item-description {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+  .news-section .news-item .news-item-data .news-item-description {
+    display: -webkit-box;
+  }
+}
+.news-section .news-item .news-item-data .read-more:hover {
+  color: #000000 !important;
+}
+.news-section .news-item .news-item-image {
+  overflow: hidden;
+  display: block;
+}
+.news-section .news-item .news-item-image img {
+  display: block;
+  width: 100%;
+  transition: 0.5s linear;
 }
 
 /*# sourceMappingURL=theme.css.map */
